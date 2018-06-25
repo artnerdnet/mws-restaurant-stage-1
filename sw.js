@@ -28,17 +28,7 @@ self.addEventListener('install', function (event) {
         "/img/8.jpg",
         "/img/9.jpg",
         "/img/10.jpg",
-        "/img/restaurant-cutlery.png",
-        "/img/1low.jpg",
-        "/img/2low.jpg",
-        "/img/3low.jpg",
-        "/img/4low.jpg",
-        "/img/5low.jpg",
-        "/img/6low.jpg",
-        "/img/7low.jpg",
-        "/img/8low.jpg",
-        "/img/9low.jpg",
-        "/img/10low.jpg",
+        "/img/restaurant-cutlery.png",        
       ]);
     })
   );
