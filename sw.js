@@ -7,7 +7,7 @@ let CacheName = "mws-restaurant-v1";
 
 self.addEventListener('install', function (event) {
   event.waitUntil( 
-    caches.open('v1').then(function (cache) { 
+    caches.open('CacheName').then(function (cache) { 
       console.log("Opened cache");
       return cache.addAll([ 
         "./",
