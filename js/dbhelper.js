@@ -15,7 +15,7 @@ if ('serviceWorker' in navigator) {
 
 if (navigator.serviceWorker) {
   navigator.serviceWorker
-    .register("index.js")
+    .register("sw.js")
     .then(function(reg) {
       console.log("Service Worker installed successfully!");
      
