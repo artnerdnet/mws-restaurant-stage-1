@@ -1,32 +1,46 @@
-# Mobile Web Specialist Certification Course
----
-#### _Three Stage Course Material Project - Restaurant Reviews_
+# Restaurant Reviews App (Stage 1)
+This project is developed for Google/Udacity Front End Web Development Nanodegree (Project 6).
 
-## Project Overview: Stage 1
+## Table of Contents
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+* [Project](#project)
+* [Dependencies](#dependencies)
+* [Bugs](#bugs)
+* [Contributing](#contributing)
+* [Installation](#installation)
 
-### Specification
+## Project 
+To made existing Restaurant Reviews App to be:
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
+- 1. Mobile Responsive
+- 2. Implement accessibility features
+- 3. Add ServiceWorker script for a offline availability
 
-### What do I do from here?
 
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
+## Dependencies
+I have used the following Code Dependencies:
 
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+- Starter code forked from [Udacity](https://github.com/udacity/mws-restaurant-stage-1). 
+-  [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/) used to display map on page. You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
 
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
+## Bugs
+I have noticed one bug in dev tools, I wasn´t able to solve:
+"Uncaught (in promise) TypeError: Request scheme 'chrome-extension' is unsupported at sw.js:71" 
+-  [Google Chrome Extension Error](https://github.com/zeit/next.js/issues/1269)
+- [Google Chrome Extension Error2](https://github.com/GoogleChromeLabs/sw-toolbox/issues/171) 
 
-## Leaflet.js and Mapbox:
+## Installation
+To start using this project follow these steps:
+1. Git clone [repository](https://github.com/dianavile/mws-restaurant-stage-1.git).
+2. Open the code directory `cd Restauran-Reviews-App`.
+3. In a terminal, check the version of Python you have `python -V`.
+4. If you have Python 2.x `python -m SimpleHTTPServer 8000`.
+5. If you have Python 3.x. `python3 -m http.server 8000`.
+6. Open in browser [http://localhost:8000/](http://localhost:8000/).
+7. If you use Visual Code Studio Online Editor, like I did:
+change the localhost to port 5500.[http://localhost:5500/](http://localhost:5500/).
 
-This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
-
-### Note about ES6
-
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
-
+## Browser compatibility
+The site was only tested on Google chrome.
 
 
