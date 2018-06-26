@@ -222,4 +222,12 @@ class DBHelper {
     );
     return marker;
   } */
+
+  /**
+  * Restaurant image Alt.
+  */
+  static imageAltForRestaurant(restaurant) {
+    return(`${restaurant.alt}`);
+  }
+
 }
